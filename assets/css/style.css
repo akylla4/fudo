@@ -16,8 +16,8 @@
 }
 
 #banner{
-    height: 450px;
-    width: 450px;
+    height: 500px;
+    width: 500px;
 }
 
 .texto-banner{
@@ -27,7 +27,6 @@
 
 .caixa-texto{
     width: 500px;
-    background-color: beige;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,3 +41,38 @@
     display: flex;
     align-items: center;
 }
+
+#food{
+    color:rgb(206, 46, 46)
+}
+
+ #btn-get{
+    width: 100px; /* aumenta a largura */
+   height: 40px; /* aumenta a altura */
+   background-color: rgb(235, 84, 84);
+   color: #ffffff;
+   border-radius: 20px; /* torna as bordas redondas */
+   border: none ;/* tira as bordas */
+ }
+
+.caixatitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: antiquewhite;
+    width: 400px;
+   
+}
+
+ .titulos-secundarios{
+    color:rgb(206, 46, 46);
+    font-weight: 500;
+ }
+
+ .titulos-primarios{
+    font-weight: bolder;
+    font-size: 40px;
+ }
+
